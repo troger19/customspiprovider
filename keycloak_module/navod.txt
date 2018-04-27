@@ -1,0 +1,4 @@
+nahrad do pricinku RHSSO/modules
+
+do standalone.xml doplnit novy modul v odseku providers v subsystem keycloak-sever
+<provider>module:org.keycloak.examples.hello-rest-example</provider>
